@@ -10,7 +10,7 @@ J'ai utilisé ceci :
 npm link
 ```
 
-### [Pour poser la question à l'utilisateur](https://github.com/becodeorg/LIE-Jepsen-2.14/blob/master/01-the-field/js-basics-algo/01-intro.md) :
+### [Pour poser la question à l'utilisateur (ancienne version)](https://github.com/becodeorg/LIE-Jepsen-2.14/blob/master/01-the-field/js-basics-algo/01-intro.md) :
 
 ```
 Type one and only one time this line of code at the top of your file to import the little library we installed earlier:
