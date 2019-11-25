@@ -1,3 +1,11 @@
+# NodeJS--CLi-Npx-card
+
+Exercices BeCode Utilisation Node JS
+
+J'ai utilisé ceci :
+
+### [Création de ligne de commande ](https://blog.bitsrc.io/how-to-build-a-command-line-cli-tool-in-nodejs-b8072b291f81)
+
 ```
 npm link
 ```
