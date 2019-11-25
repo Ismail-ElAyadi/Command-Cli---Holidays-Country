@@ -1,2 +1,3 @@
-console.log("Hello , Node JS Enchanté bro ") ;
+#!/usr/bin/env node
 
+console.log("Hello , Node JS Enchanté bro ");
