@@ -8,21 +8,31 @@ const {
 } = require("country-list");
 
 let api = `https://date.nager.at/api/v2/PublicHolidays`;
-console.log("Hello , Node JS Enchanté bro ");
+
 let info = process.argv[2];
-console.log(info);
-let date = new Date().getFullYear();
+
+
+let date = process.argv[3]
+if (date == undefined) {
+  date = new Date().getFullYear();
+}
+
+
 
 
 let country = getCode(info);
 
-
-let holidays = axios
+console.log(`Holidays for ${info}
+`)
+axios
   .get(`${api}/${date}/${country}`)
   .then(function (response) {
     let takhna = response.data;
     takhna.forEach(function (element) {
-      console.log(`${element.name} at ${element.date} `);
+
+      console.log(`${element.name}
+${element.date}
+`);
     });
   })
   .catch(function (error) {
