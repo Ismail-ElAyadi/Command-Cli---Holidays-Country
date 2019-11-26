@@ -7,6 +7,14 @@ Ligne de commande pour récupérer tous les jours de vacances d'un pays en fonct
 ```
 $ npx @sma3il/holidays {Nom Du pays en Anglais} {Année en 4 chiffres}
 ```
+Exemple : 
+```
+
+$ npx @sma3il/holidays belgium 2020
+
+```
+Si l'année n'est pas donnée comme argument  il prendra l'année en cours. 
+
 
 J'ai utilisé ceci :
 
