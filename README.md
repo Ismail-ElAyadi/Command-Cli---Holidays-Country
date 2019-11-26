@@ -2,6 +2,12 @@
 
 Exercices BeCode Utilisation Node JS
 
+Ligne de commande pour récupérer tous les jours de vacances d'un pays en fonction de son année :
+ 
+```
+$ npx @sma3il/holidays {Nom Du pays en Anglais} {Année en 4 chiffres}
+```
+
 J'ai utilisé ceci :
 
 ### [Création de ligne de commande ](https://blog.bitsrc.io/how-to-build-a-command-line-cli-tool-in-nodejs-b8072b291f81)
