@@ -37,7 +37,7 @@ console.log("Hello " + userName);
 It's not frequently used in real-life programs but it will be useful for simple exercises.
 ```
 
-### [Pour récupérer les cods des pays:](https://www.npmjs.com/package/country-list)
+### [Pour récupérer les codes des pays:](https://www.npmjs.com/package/country-list)
 
 ##### Example
 
